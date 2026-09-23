@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="bgSom" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#241e17" />
+      <stop offset="100%" stop-color="#3d3224" />
+    </linearGradient>
+    <linearGradient id="somsaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e3a75b" />
+      <stop offset="60%" stop-color="#c27f32" />
+      <stop offset="100%" stop-color="#734212" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgSom)" rx="16"/>
+  <ellipse cx="300" cy="225" rx="200" ry="140" fill="#faf5ec" stroke="#b37f37" stroke-width="6"/>
+  <g transform="translate(300, 220)">
+    <path d="M-80,-60 L-20,30 L-140,30 Z" fill="url(#somsaGrad)" stroke="#522c09" stroke-width="3" rx="6"/>
+    <circle cx="-80" cy="-5" r="2" fill="#111" /><circle cx="-70" cy="10" r="2" fill="#111" /><circle cx="-90" cy="15" r="2" fill="#111" />
+    <path d="M70,-65 L130,25 L10,25 Z" fill="url(#somsaGrad)" stroke="#522c09" stroke-width="3" rx="6"/>
+    <circle cx="70" cy="-10" r="2" fill="#111" /><circle cx="60" cy="5" r="2" fill="#111" /><circle cx="80" cy="10" r="2" fill="#111" />
+    <path d="M0,-15 L70,75 L-70,75 Z" fill="url(#somsaGrad)" stroke="#522c09" stroke-width="3" rx="6"/>
+    <circle cx="0" cy="40" r="2.5" fill="#111" /><circle cx="-15" cy="50" r="2" fill="#111" /><circle cx="15" cy="55" r="2" fill="#111" />
+  </g>
+  <text x="300" y="415" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="600" fill="#fad79d" text-anchor="middle">TANDIR SOMSA</text>
+</svg>
