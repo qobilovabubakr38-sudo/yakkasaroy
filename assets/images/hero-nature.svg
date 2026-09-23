@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b2413" />
+      <stop offset="40%" stop-color="#143d20" />
+      <stop offset="80%" stop-color="#1b4d2b" />
+      <stop offset="100%" stop-color="#2a663b" />
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#195c69" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#2a8b9e" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#185662" stop-opacity="0.8" />
+    </linearGradient>
+    <linearGradient id="woodGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8a5a36" />
+      <stop offset="100%" stop-color="#54341c" />
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#48a85f" />
+      <stop offset="100%" stop-color="#276b38" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#skyGrad)" />
+  <path d="M0,520 Q200,380 450,470 T900,410 Q1050,440 1200,480 L1200,800 L0,800 Z" fill="#0d2e18" opacity="0.8" />
+  <path d="M0,570 Q300,460 650,540 T1200,510 L1200,800 L0,800 Z" fill="#133d21" opacity="0.9" />
+  <path d="M-50,680 Q300,620 600,690 T1250,660 L1250,850 L-50,850 Z" fill="url(#waterGrad)" />
+  <path d="M0,710 Q400,660 800,720 T1200,700" stroke="#7be3f5" stroke-width="3" stroke-dasharray="25 15" fill="none" opacity="0.6" />
+
+  <circle cx="120" cy="460" r="140" fill="url(#leafGrad)" opacity="0.4" />
+  <circle cx="200" cy="400" r="160" fill="url(#leafGrad)" opacity="0.5" />
+  <circle cx="80" cy="380" r="120" fill="#1d5c2f" opacity="0.6" />
+  <rect x="140" y="480" width="36" height="260" rx="8" fill="url(#woodGrad)" />
+
+  <circle cx="1080" cy="420" r="170" fill="url(#leafGrad)" opacity="0.4" />
+  <circle cx="980" cy="460" r="140" fill="url(#leafGrad)" opacity="0.5" />
+  <rect x="1030" y="490" width="40" height="250" rx="8" fill="url(#woodGrad)" />
+
+  <g transform="translate(420, 480)">
+    <rect x="0" y="90" width="360" height="40" rx="8" fill="url(#woodGrad)" stroke="#b88358" stroke-width="2" />
+    <rect x="30" y="130" width="24" height="70" rx="4" fill="#3d2311" />
+    <rect x="306" y="130" width="24" height="70" rx="4" fill="#3d2311" />
+    <rect x="15" y="30" width="330" height="60" rx="4" fill="none" stroke="#b88358" stroke-width="4" opacity="0.8" />
+    <line x1="70" y1="30" x2="70" y2="90" stroke="#b88358" stroke-width="3" />
+    <line x1="125" y1="30" x2="125" y2="90" stroke="#b88358" stroke-width="3" />
+    <line x1="180" y1="30" x2="180" y2="90" stroke="#b88358" stroke-width="3" />
+    <line x1="235" y1="30" x2="235" y2="90" stroke="#b88358" stroke-width="3" />
+    <line x1="290" y1="30" x2="290" y2="90" stroke="#b88358" stroke-width="3" />
+    <rect x="30" y="70" width="300" height="22" rx="6" fill="#a82323" stroke="#e0a33a" stroke-width="2" />
+    <ellipse cx="180" cy="74" rx="45" ry="12" fill="#fffdfa" />
+    <circle cx="180" cy="65" r="10" fill="#2d6b38" />
+    <circle cx="155" cy="68" r="6" fill="#e0a33a" />
+    <circle cx="205" cy="68" r="6" fill="#e0a33a" />
+  </g>
+
+  <g filter="url(#glow)">
+    <circle cx="350" cy="220" r="14" fill="#ffd15c" />
+    <circle cx="480" cy="180" r="12" fill="#ffd15c" />
+    <circle cx="620" cy="160" r="15" fill="#ffd15c" />
+    <circle cx="760" cy="190" r="13" fill="#ffd15c" />
+    <circle cx="890" cy="230" r="14" fill="#ffd15c" />
+  </g>
+  <path d="M250,230 Q600,140 980,240" stroke="rgba(255,230,150,0.6)" stroke-width="2" fill="none" />
+</svg>
