@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <rect width="600" height="450" fill="#18363b" rx="16"/>
+  <g transform="translate(300, 225)">
+    <path d="M-60,-80 L60,-80 L80,70 Q80,100 0,100 Q-80,100 -80,70 Z" fill="#c43b35" opacity="0.9" stroke="#ffffff" stroke-width="4"/>
+    <rect x="-30" y="-30" width="28" height="28" rx="6" fill="#ffffff" opacity="0.6"/>
+    <rect x="10" y="10" width="26" height="26" rx="6" fill="#ffffff" opacity="0.6"/>
+    <circle cx="-10" cy="30" r="16" fill="#e8982e" />
+    <circle cx="20" cy="-40" r="14" fill="#691222" />
+    <path d="M65,-50 Q115,0 75,50" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <text x="300" y="415" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="600" fill="#bfe7ed" text-anchor="middle">TABIIY ICHIMLIKLAR</text>
+</svg>
