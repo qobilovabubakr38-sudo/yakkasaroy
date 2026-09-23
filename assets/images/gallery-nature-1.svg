@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="gSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#14361c" />
+      <stop offset="60%" stop-color="#245730" />
+      <stop offset="100%" stop-color="#3d7d4f" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#gSky)" />
+  <circle cx="200" cy="200" r="180" fill="#1a4523" opacity="0.7"/>
+  <circle cx="600" cy="180" r="220" fill="#1d4d28" opacity="0.6"/>
+  <path d="M0,450 Q400,380 800,430 L800,600 L0,600 Z" fill="#1d6e80" opacity="0.8"/>
+  <rect x="250" y="320" width="300" height="120" rx="12" fill="#694324" stroke="#a36e40" stroke-width="4"/>
+  <text x="400" y="550" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="600" fill="#ffffff" text-anchor="middle">Soya-salqin joylar va oqar suv</text>
+</svg>
