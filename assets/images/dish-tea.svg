@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <radialGradient id="teaPotGrad" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="60%" stop-color="#e8f0e9" />
+      <stop offset="100%" stop-color="#b6c9b8" />
+    </radialGradient>
+  </defs>
+  <rect width="600" height="450" fill="#1b3624" rx="16"/>
+  <g transform="translate(300, 220)">
+    <circle cx="-40" cy="0" r="70" fill="url(#teaPotGrad)" stroke="#1a4a27" stroke-width="4"/>
+    <path d="M-110,-10 Q-140,-20 -130,20 Q-115,10 -105,5" fill="#e8f0e9" stroke="#1a4a27" stroke-width="3"/>
+    <path d="M25,-30 Q65,0 25,30" fill="none" stroke="#1a4a27" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="-40" cy="-68" rx="30" ry="10" fill="#1a4a27" />
+    <circle cx="-40" cy="-78" r="8" fill="#d9a838" />
+    <path d="M70,10 L130,10 L120,60 Q100,70 80,60 Z" fill="url(#teaPotGrad)" stroke="#1a4a27" stroke-width="3"/>
+    <path d="M100,-10 Q115,-25 105,-5" fill="#329e4b"/>
+  </g>
+  <text x="300" y="415" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="600" fill="#cce8d2" text-anchor="middle">MILLIY VA TOG' CHOYLARI</text>
+</svg>
