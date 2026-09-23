@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <radialGradient id="nightLights" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#ffd56b" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0b1710" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="#09140c" />
+  <rect width="800" height="600" fill="url(#nightLights)" />
+  <circle cx="200" cy="220" r="16" fill="#ffb833"/>
+  <circle cx="350" cy="180" r="18" fill="#ffb833"/>
+  <circle cx="500" cy="170" r="18" fill="#ffb833"/>
+  <circle cx="650" cy="210" r="16" fill="#ffb833"/>
+  <text x="400" y="520" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="600" fill="#fce5a9" text-anchor="middle">Kechki romantik va osoyishta muhit</text>
+</svg>
