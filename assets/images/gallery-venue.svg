@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#142e1a" />
+  <polygon points="100,350 400,180 700,350" fill="#3b2b1b" stroke="#7a5b3d" stroke-width="4"/>
+  <rect x="140" y="350" width="520" height="160" fill="#f5ede1" rx="8"/>
+  <rect x="220" y="380" width="80" height="130" fill="#1f4227" rx="6"/>
+  <rect x="360" y="380" width="80" height="130" fill="#1f4227" rx="6"/>
+  <rect x="500" y="380" width="80" height="130" fill="#1f4227" rx="6"/>
+  <text x="400" y="560" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="600" fill="#e1f0e4" text-anchor="middle">Restoran muhiti</text>
+</svg>
